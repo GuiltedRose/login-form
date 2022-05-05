@@ -1,7 +1,20 @@
-img {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 40%;
-    margin-right: 20;
+.text-over {
+    position: relative;
+}
+.text-over img {
+    width: 30.5%;
+    height: 40.7%;
+}
+
+.text-over figcaption {
+    position: absolute;
+    align-content: center;
+    bottom: 0;
+    left: 0;
+    color:white;
+    font-size: 15px;
+    padding:0 0 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    
 }
